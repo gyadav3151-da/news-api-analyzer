@@ -1,0 +1,61 @@
+# =========================
+# Python Cache Files
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# =========================
+# Virtual Environments
+# =========================
+
+venv/
+env/
+.venv/
+
+
+# =========================
+# Jupyter Notebook Checkpoints
+# =========================
+
+.ipynb_checkpoints/
+
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+
+.env
+
+
+# =========================
+# VS Code Settings
+# =========================
+
+.vscode/
+
+
+# =========================
+# OS Generated Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# API Keys / Secret Files
+# =========================
+
+config.py
+secrets.py
+
+
+# =========================
+# Temporary Files
+# =========================
+
+*.log
+*.tmp
