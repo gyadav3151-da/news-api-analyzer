@@ -73,15 +73,15 @@ NewsAPI → JSON Response → Data Cleaning → EDA → NLP Analysis → Visuali
 
 ### 📌 Top News Sources
 
-* Bar chart showing publishers with highest article counts.
+![Top News Sources](03_images/top_news_sources.png)
 
 ### 📌 Publishing Hours Analysis
 
-* Visualization of peak publishing activity.
-
+![Publishing Hours](03_images/publishing_hours.png)
+ 
 ### 📌 Headline Keyword Frequency
 
-* Most commonly appearing keywords in news headlines.
+![Headline Keywords](03_images/headline_keywords.png)
 
 ---
 
@@ -108,13 +108,18 @@ NewsAPI → JSON Response → Data Cleaning → EDA → NLP Analysis → Visuali
 ```text
 news-api-analyzer/
 │
-├── automated_news_analyzer.py
-├── news_analysis.csv
-├── requirements.txt
+├── 01_python_code
+    └── automated_news_analyzer.py
+├── 02_output
+    └── news_analysis.csv
+├── 03_images
+    ├── headline_keywords.png
+    ├── publishing_hours.png
+    └── top_news_sources.png
+├── .gitignore
 ├── README.md
-├── top_news_sources.png
-├── publishing_hours.png
-└── headline_keywords.png
+└── requirements.txt
+ 
 ```
 
 ---
