@@ -312,7 +312,7 @@ print(
 # In[14]:
 
 
-news_df.to_csv("news_analysis.csv", index=False)
+news_df.to_csv("news_analysis.csv", encoding="utf-8-sig", index=False)
 
 print("\nFinal Dataset Exported Successfully")
 print("Project Completed")
