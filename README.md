@@ -129,7 +129,7 @@ news-api-analyzer/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/news-api-analyzer.git
+git clone https://github.com/gyadav3151-da/news-api-analyzer.git
 ```
 
 ## 2️⃣ Navigate Into Project Folder
